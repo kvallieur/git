@@ -1,6 +1,6 @@
 # Git
 
-To know the parent branch 
+1.To know the parent branch 
  
  	
 	git show-branch -a \
@@ -19,3 +19,14 @@ To know the parent branch
              \
               \
                F---G---H <-topic
+
+
+
+2.To Get rid of 
+"please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch."
+
+	press "i"
+	write your merge message
+	press "esc"
+	write ":wq"
+	then press enter
